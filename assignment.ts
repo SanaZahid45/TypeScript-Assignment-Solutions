@@ -114,10 +114,10 @@ console.log("Question no 11");
 // Names: Store the names of a few of your friends 
 // in a array called names. Print each person’s name by accessing each element in the list, one at a time.
 
-let myfreindsName = ["Munazza", "Rimsha", "Arham", "Zaman"];
+let names = ["Munazza", "Rimsha", "Arham", "Zaman"];
 
-for (let name of myfreindsName){
-    console.log(name);
+for (let friendsname of names){
+    console.log(friendsname);
     
 }
 
