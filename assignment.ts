@@ -11,15 +11,18 @@ console.log("Q no: 3");
 //Name Cases: Store a person’s name in a variable, and then print that person’s 
 //name in lowercase, uppercase, and titlecase.
 
-function toTitleCase(str: string) {
-    return str.toLowerCase().replace(/(?:^|\s)\w/g, match => match.toUpperCase());
-}
+let personName = "Sana zahid";
 
-let personName = "Sana Zahid";
+console.log("lowercase:");
 console.log(personName.toLowerCase());
+
+console.log("\nuppercase:");
 console.log(personName.toUpperCase());
 
-let titleCaseName = toTitleCase(personName);
+let titleCaseString = personName.replace(/(?:^|\s)\w/g, match => match.toUpperCase());
+console.log("\ntitlecase:");
+console.log(titleCaseString);
+
 
 console.log(titleCaseName); 
 
