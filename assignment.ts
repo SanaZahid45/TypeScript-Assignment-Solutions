@@ -360,7 +360,7 @@ console.log();
 // Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, 
 // cities,languages, or anything else you’d like. Write a program that creates a list containing these items.
 
-// Create an array of favorite books
+// Create an array of favorite rivers
 let ListOfRivers: string[] = [
   "Nile River",
   "Amazon River",
@@ -368,7 +368,7 @@ let ListOfRivers: string[] = [
   "Ganges River",
 ];
 
-// Print the list of favorite books
+// Print the list of favorite rivers
 console.log("My Favorite Rivers:");
 for (const river of ListOfRivers) {
   console.log(river);
@@ -379,30 +379,30 @@ console.log("Q no: 21");
 // They think of something you could store in a TypeScript Object. Write a program that creates Objects containing
 //  these items.
 
-interface Nowels {
-    nowelName: string,
+interface Novels {
+    novelName: string,
     author: string,
     genre: string,
     publishedIn: number
 };
  
-let nowel1 :Nowels = {
-    nowelName: "You Are a Badass",
+let novel1 :Novels = {
+    novelName: "You Are a Badass",
     author: "Jen Sincero",
     genre: "Self-Help, Motivational, Personal Development",
     publishedIn:  2013
 };
 
-let nowel2 :Nowels = {
-    nowelName: "The Magic of Thinking Big",
+let novel2 :Novels = {
+    novelName: "The Magic of Thinking Big",
     author: "David J. Schwartz",
     genre: " Self-Help, Personal Development",
     publishedIn: 1959
 };
   
   // Printing the Nowels
-  console.log(nowel1);
-  console.log(nowel2);
+  console.log(novel1);
+  console.log(novel2);
   
   console.log();
   console.log("Q no: 22");
@@ -411,7 +411,7 @@ let nowel2 :Nowels = {
 //   program.
 
 // Creating an array of colors
-const colors: string[] = ["Grey", "Purple", "Black", "White", "Mink Green"];
+const colors: string[] = ["Grey", "Purple", "Black", "White", "Mint Green"];
 
 // Trying to access an element at an invalid index (index error)
 const invalidIndex = 8; // This index is out of bounds for the array
